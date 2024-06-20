@@ -9,6 +9,7 @@ public class Pasajero {
         this.nombre = nombre;
         this.cedula = cedula;
     }
+    public Pasajero(){}
 
     // Getters y Setters
     public String getNombre() {
@@ -27,12 +28,11 @@ public class Pasajero {
         this.cedula = cedula;
     }
 
-    @Override
-    public String toString() {
-        return "Pasajero{" +
+    public void imprimir() {
+        System.out.println( "Pasajero{" +
                 "nombre='" + nombre + '\'' +
                 ", cedula='" + cedula + '\'' +
-                '}';
+                '}');
     }
 }
 

@@ -19,10 +19,10 @@ public class VIP extends Servicio {
     }
 
     @Override
-    public String toString() {
-        return "Servicio VIP{" +
+    public void imprimir() {
+        System.out.println("Servicio VIP{" +
                 "tieneTVInternet=" + tieneTVInternet +
                 ", detalles='" + getDetalles() + '\'' +
-                '}';
+                '}');
     }
 }

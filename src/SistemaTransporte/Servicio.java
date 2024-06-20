@@ -1,7 +1,6 @@
 package SistemaTransporte;
 
 
-
 public class Servicio {
     private String detalles;
 
@@ -17,4 +16,5 @@ public class Servicio {
     public void setDetalles(String detalles) {
         this.detalles = detalles;
     }
+    public void imprimir() {}
 }

@@ -21,11 +21,11 @@ public class Normal extends Servicio {
     }
 
     @Override
-    public String toString() {
-        return "Servicio Normal{" +
+    public void imprimir() {
+        System.out.println( "Servicio Normal{" +
                 "tipoAsiento='" + tipoAsiento + '\'' +
                 ", maletaAdicional=" + maletaAdicional +
                 ", detalles='" + getDetalles() + '\'' +
-                '}';
+                '}');
     }
 }
